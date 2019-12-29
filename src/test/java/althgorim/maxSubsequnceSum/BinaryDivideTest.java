@@ -1,7 +1,6 @@
 package althgorim.maxSubsequnceSum;
 
 
-import althgorim.maxSubsequnceSum.BinaryDivide;
 import org.junit.Test;
 
 public class BinaryDivideTest {
