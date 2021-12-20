@@ -44,6 +44,24 @@ public class Bubblesort {
 				}
 			}
 		}
+
+		//该算法最好情况下时间复杂度为O(n)
+		public void bubbleSort(int arr[]) {
+			boolean didSwap;
+			for(int i = 0, len = arr.length; i < len - 1; i++) {
+				didSwap = false;
+				for(int j = 0; j < len - i - 1; j++) {
+					if(arr[j + 1] < arr[j]) {
+						int temp=arr[j+1];
+						arr[j+1]=arr[j];
+						arr[j]=temp;
+						didSwap = true;
+					}
+				}
+				if(didSwap == false)
+					return;
+			}
+		}
 		
 		public static void main(String[] args) {
 			Bubblesort butoBubblesort = new Bubblesort();

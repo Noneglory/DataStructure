@@ -1,5 +1,8 @@
 package sort;
 
+/**
+ * 插入排序
+ */
 public class InsertSort {
 	/**
 	 * 时间复杂度O(n^2)
@@ -22,8 +25,8 @@ public class InsertSort {
 	 
 	        while (j > 0 && target < arr[j - 1])
 	        {
-	            arr[j] = arr[j - 1];
-	            j--;
+	            arr[j] = arr[j - 1];//数据往后移一位
+	            j--;//拿到数据空缺的小标。最小为0
 	        }
 	 
 	        arr[j] = target;
