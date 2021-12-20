@@ -12,7 +12,7 @@ public class StringReverse {
 	}
 	
 	public static void main(String[] args) {
-		String message="123456";
+		String message="fasfewfdsf";
 		StringReverse  stringReverse =new StringReverse();
 		System.out.println(stringReverse.reverse(message));
 	}

@@ -2,7 +2,7 @@ package sort;
 
 public class InsertSort {
 	/**
-	 * 事件复杂度O(n^2)
+	 * 时间复杂度O(n^2)
 	 * @param arr
 	 */
 	public  void sort(int[] arr)
